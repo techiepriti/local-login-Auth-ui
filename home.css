@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    position: absolute;
+    z-index: 2;
+    border: 2px solid #4caf50;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+#signupButton {
+    background-color: #4caf50;
+    color: hsl(0, 14%, 92%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#loginButton {
+    background-color: #f1f1f1;
+    color: hwb(0 4% 96%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submitButton {
+    background-color: #4caf50;
+    color: hwb(0 97% 2%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#signupForm {
+    display: block;
+    position: relative; z-index: 1;
+}
+#loginForm {
+    display: none;
+    position: relative; z-index: 2;
+}
+.container {
+    padding: 16px;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.split {
+height: 50%;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-left: 20px;
+}
+#grad {
+background: linear-gradient(-45deg, #3498db, #2ecc71, #e74c3c);
+position: absolute;
+z-index: -1;
+}
+.bottom {
+position: absolute;
+z-index: -1;
+}
+ul {
+list-style-type: none;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: hsl(0, 12%, 91%);
+align-self: start;
+position: absolute;
+z-index: 2;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: rgb(5, 1, 1);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #7a7575;
+}
+.active {
+background-color: #9bcafc;
+}
+.footer {
+bottom: 0;
+position: fixed;
+color: #120566;
+} 
